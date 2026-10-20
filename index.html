@@ -564,7 +564,7 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
     <div class="f-sub">chúc mừng ngày</div>
     <h1>Phụ nữ Việt Nam</h1>
     <div class="f-date">20 · 10</div>
-    <p class="f-to" id="f-to">gửi người phụ nữ mà tớ chân trọng</p>
+    <p class="f-to" id="f-to">gửi người phụ nữ mà tớ trân trọng</p>
     <p class="f-msg">Thế gian này cần nhiều hơn những điều dịu dàng, những nụ cười chân thành và những câu chuyện đẹp. Và tớ mong, thế giới của cậu luôn ngập tràn những điều như thế, như cách tớ vẫn cầu mong mình có thể trở thành một phần dịu dàng trong cuộc đời cậu.</p>
     <div class="f-act">
       <button id="b-link" class="alt" hidden>chép link</button>
@@ -744,7 +744,7 @@ $('#q1').addEventListener('click',e=>{
 
 function setupFinal(){
   const to=TO||'';
-  $('#f-to').textContent = to ? 'gửi '+to+(FROM?' · từ '+FROM:'') : 'gửi người phụ nữ mà tớ chân trọng'+(FROM?' · từ '+FROM:'');
+  $('#f-to').textContent = to ? 'gửi '+to+(FROM?' · từ '+FROM:'') : 'gửi người phụ nữ mà tớ trân trọng'+(FROM?' · từ '+FROM:'');
   if(location.protocol.startsWith('http')) $('#b-link').hidden=false;
 }
 $('#b-link').addEventListener('click',()=>{
